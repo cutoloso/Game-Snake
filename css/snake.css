@@ -1,0 +1,66 @@
+.main {
+  width: 400px;
+  height: 300px;
+  margin:auto;
+  font-family: cursive;
+  color:white;
+  border:2px solid grey;
+  background-color: lightgrey;
+}
+.title{
+  margin-top: 15%;
+  margin-bottom: 10%;
+}
+/* Start play game */
+.playGame{
+  
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: 1px solid black;
+  background-color: black;
+}
+.playGame #play{
+  animation: myzom 2s infinite;
+}
+@keyframes myzom{
+  from{
+    font-size:20px;
+  }
+  to{
+    
+  }
+}
+.playGame #play:hover{
+  cursor: pointer;
+}
+/* End play game */
+/* Start screen game*/
+.canvas{
+  display:none;
+  width:300px;
+  height:100%;
+  margin:0 50px;
+  background-color:black;
+}
+/* End screen game*/
+/* Start Game over */
+.gameOver{
+  display:none;
+  width:100%;
+  height:100%;
+  text-align: center;
+  border: 1px solid black;
+  background-color:black;
+}
+.gameOver #maxScore{
+  margin-bottom: 10px;
+}
+.gameOver #playAgain{
+  margin: 0 0 20% 0;
+  animation: myzom 2s infinite;
+}
+.gameOver #playAgain:hover{
+  cursor:pointer;
+}
+/* End Game over */
